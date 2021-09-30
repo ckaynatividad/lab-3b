@@ -29,6 +29,7 @@ main {
 .selected:active {
     animation: shake;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .animals {
