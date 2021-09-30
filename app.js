@@ -7,8 +7,8 @@ const catSound = document.getElementById('cat-sound');
 
 
 horseImg.addEventListener('click', ()=>{
-  horseSound.play();
-  horseImg.classList.add('selected');
+    horseSound.play();
+    horseImg.classList.add('selected');
 });
 
 dogImg.addEventListener('click', ()=>{
@@ -18,22 +18,22 @@ dogImg.addEventListener('click', ()=>{
 });
 
 catImg.addEventListener('click', ()=>{
-  catSound.play();
-  catImg.classList.add('selected');
+    catSound.play();
+    catImg.classList.add('selected');
 });
 
 document.addEventListener('keypress', event =>{
-  if (event.key === 'h') {
-    horseSound.play();
-    horseImg.classList.add('selected');
-  } else if
+    if (event.key === 'h') {
+        horseSound.play();
+        horseImg.classList.add('selected');
+    } else if
     (event.key === 'd') {
-      dogSound.play();
-      dogImg.classList.add('selected');
+        dogSound.play();
+        dogImg.classList.add('selected');
     } else if
     (event.key === 'c') {
-      catSound.play();
-      catImg.classList.add('selected');
+        catSound.play();
+        catImg.classList.add('selected');
     }
 
 });
